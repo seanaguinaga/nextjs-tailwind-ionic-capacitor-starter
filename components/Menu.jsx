@@ -10,15 +10,15 @@ import {
   IonMenuToggle,
   IonRouterContext,
   IonTitle,
-  IonToolbar,
+  IonToolbar
 } from '@ionic/react';
-import { useContext, useEffect, useState } from 'react';
 import { cog, flash, list } from 'ionicons/icons';
-import { useHistory, useLocation } from 'react-router-dom';
+import { useContext, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const pages = [
   {
-    title: 'Feed',
+    title: 'Feedz',
     icon: flash,
     url: '/tabs/feed',
   },
